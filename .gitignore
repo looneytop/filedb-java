@@ -1,0 +1,15 @@
+/target/
+/.idea/
+*.iml
+.DS_Store
+
+# Файлы БД и результаты работы приложения не являются исходниками.
+/data/*
+!/data/.gitkeep
+/backups/*
+!/backups/.gitkeep
+/exports/*
+!/exports/.gitkeep
+/benchmarks/results/*
+!/benchmarks/results/.gitkeep
+
